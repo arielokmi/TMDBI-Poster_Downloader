@@ -10,7 +10,14 @@ class MongoDb:
         self.mycol = self.mydb["fs.files"]
         self.id = "63468a36bd6a34742c3b365e"
 
-    def write_image(self,file,movie_name,movie_id):
+    def __read_image__(self,moviename):
+        image_file = self.mycol.find_one( {"moviename" : moviename})
+        return image_file
+         # for document in id_movie:
+         #   print(document)
+          #print(id_movie.get('__id'))
+
+    def __write_image__(self,file,movie_name,movie_id):
         # Open the image in read-only format.
         with open(file, 'rb') as f:
             contents = f.read()
@@ -22,24 +29,17 @@ class MongoDb:
         #we need to learn gred0
    #     self.mycol.insert_one(insert_dict)
 
-    def update_image(self,moviename,key_to_update,val_to_update):
+    def __update_image__(self,moviename,key_to_update,val_to_update):
           self.mycol.update_many( {"moviename" : moviename},{"$set":{key_to_update : val_to_update}})
 
 
 
-    def delete_image(self,moviename):
+    def __delete_image__(self,moviename):
+        print(moviename)
         image_id = self.mycol.find_one({"moviename": moviename})["_id"]
+        print(image_id)
         self.myfs.delete(image_id)
-
-    def read_image(self,moviename):
-        image_file = self.mycol.find_one( {"moviename" : moviename})
-        return image_file
-         # for document in id_movie:
-         #   print(document)
-          #print(id_movie.get('__id'))
-
-
-
+        return moviename
 
 
 #if __name__ == '__main__':

@@ -10,15 +10,18 @@
                         <div id="input-1">
                             <label for="name">Insert Movie Name:</label>
                             <input type="text" name="name" id='name' required>
-                        </div>
-                        <br>
-                        <br>
-                        <br>
                         <div id="div-submit">
                             <input type="submit" value="submit">
                         </div>
+                        </div>
+                        {% if poster_image %}
+                        <img src = "data:image_display/jpeg;base64, {image_diplay}}" alt= "myImage"/>
+                        {% else %}
+                        <h1>Hello, World!</h1>
+                        {% endif %}
                     </form>
                 </div>
+
 
             </div>
         </body>
