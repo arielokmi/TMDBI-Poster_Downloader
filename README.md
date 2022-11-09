@@ -18,9 +18,4 @@
  * build in pyhton language
  * using with object-oriented programming and using class method
   
-### **Installation**
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the dependencies needed
-```bash
-pip install flask , bs4 , urllib3 , requests , pymongo
-```
