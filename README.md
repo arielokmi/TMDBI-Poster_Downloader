@@ -12,9 +12,9 @@
 <div>
 <br>
   <h3>:rocket: Future </h3>
-  :thumbsup: build in pyhton language
-  :thumbsup: using with object-oriented programming and using class method
-  :thumbsup: build using the plugins:
+  - build in pyhton language
+  - using with object-oriented programming and using class method
+  - build using the plugins:
   
 ### **Installation**
 
