@@ -4,9 +4,10 @@
 
 
 ## About 
-  web application based on flask writting in python.<br/>
-  give you option to search poster of movie for your choice from your mongodb.<br/>
-  also you can do crud actions from mongodb include:create,update,read and delete using simple api routeing.<br/>
+  web application that search and download posters from tmdbi.<br/>
+  this website give you option to input name of movie you choice and search it from your mongodb.<br/>
+  if it not found the movie it download. the website send request to tmdbi and download poster of the movie to your mongodb.<br/>
+  also you can do crud actions from the route to mongodb include:create,update,read and delete using simple api routeing.<br/>
   and it build as :whale: docker image so it ready to use.<br/> 
  
  ## Future
