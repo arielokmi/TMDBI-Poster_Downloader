@@ -14,8 +14,8 @@
   <br>
   
 <h3>Future</h3> 
-  *  :rocket: build in pyhton language
-  *  :rocket: using with object-oriented programming and using class method
+  * :rocket: build in pyhton language
+  * :rocket: using with object-oriented programming and using class method
   
  <h3> how to use </h3>
 1. Clone this repostory to your computer.
