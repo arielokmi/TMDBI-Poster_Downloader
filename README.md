@@ -10,13 +10,14 @@
   and it build as :whale: docker image so it ready to use.<br/> 
  
  ## Future
- * :rocket: build in pyhton language.
+ * :rocket: based on flask writting in python.
  * :rocket: using with object-oriented programming and using class method.
+ * :rocket: using mongoDb and using Gridfs solution.
  
 ## Installation
    1. first clone the project to your text editor.
       ```
-      git clone 
+      git clone https://github.com/arielokmi/TMDBI-Poster_Downloader.git
       ```
    2. download and update the necessary plugins for the project
       ```
@@ -31,3 +32,13 @@
       ```
       docker-compose -f docker_compose.yaml up
       ```
+   5. now you can access the website:
+      ```
+      localhost:5001
+      ```
+ ## Use case:
+ ###  Search:
+      ```
+      localhost:5001
+      ```
+ 
