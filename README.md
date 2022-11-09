@@ -39,6 +39,6 @@
  ## Use case:
  ###  Search:
       ```
-      localhost:5001
+      '/search/<movie_name>'
       ```
  
