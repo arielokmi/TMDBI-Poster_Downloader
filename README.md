@@ -14,7 +14,20 @@
  * :rocket: using with object-oriented programming and using class method.
  
 ## Installation
-   Prerequisites
-   ```bash
-   Docker, Git 
-   ```
+   1. first clone the project to your text editor.
+      ```
+      git clone 
+      ```
+   2. download and update the necessary plugins for the project
+      ```
+      apt update
+      ```
+   3. build the docker imgae using:
+      ```
+      docker build . -t app:latest
+      ```
+   4. run the docker.compose file:
+   
+      ```
+      docker-compose -f docker_compose.yaml up
+      ```
