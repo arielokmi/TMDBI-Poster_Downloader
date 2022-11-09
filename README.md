@@ -12,11 +12,11 @@
  and it build as :whale: docker image so it ready to use.
 <p>
   <br>
- <h3>Future</h3> 
+<h3>Future</h3> 
   *:rocket: build in pyhton language
   *:rocket: using with object-oriented programming and using class method
   
- <h3> how to use </h3>
+<h3> how to use </h3>
   1. Clone this repostory to your computer.
   2. Move to the directory of the cloned folder.
   3. In the terminal run the command `docker build . -t app:latest`
