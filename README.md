@@ -6,13 +6,19 @@
 </div>
 
 <div>
-  web application that give you option to download poster of movie to your db,
+  web application based on flask that give you option to download poster of movie for your choice to your mongodb,
   also you can do crud actions from mongodb include:create,update,read and delete using simple api routeing
-  and it build as :whale: docker image so it ready to use
+  and it build as :whale: docker image so it ready to use.
 <div>
 <br>
+<div>
+  <h3>:rocket: Future </h3>
+  :thumbsup: build in pyhton language
+  :thumbsup: using with object-oriented programming and using class method
+  :thumbsup: build using the plugins:
+  
+<div>
 
-  based of flask write in python language
   
   
   
