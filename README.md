@@ -11,18 +11,11 @@
   and it build as :whale: docker image so it ready to use.
 <div>
 <br>
-<div>
   <h3>:rocket: Future </h3>
- - :thumbsup: build in pyhton language
- - :thumbsup: using with object-oriented programming and using class method
- - :thumbsup: build using the plugins:
+  :thumbsup: build in pyhton language
+  :thumbsup: using with object-oriented programming and using class method
+  :thumbsup: build using the plugins:
   
-<div>
-
-  
-  
-  
-
 ### **Installation**
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the dependencies needed
