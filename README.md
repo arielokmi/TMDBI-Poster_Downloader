@@ -13,12 +13,7 @@
 <p>
   <br>
 <h3>Future</h3> 
-  *:rocket: build in pyhton language
-  *:rocket: using with object-oriented programming and using class method
+  *: rocket: build in pyhton language
+  *: rocket: using with object-oriented programming and using class method
   
 <h3> how to use </h3>
-  1. Clone this repostory to your computer.
-  2. Move to the directory of the cloned folder.
-  3. In the terminal run the command `docker build . -t app:latest`
-  4. Run the command `docker-compose -f Movie_compose.yaml up`
-  5. The prompt should return and IP address with port 5003 for you to access the web appliction.
