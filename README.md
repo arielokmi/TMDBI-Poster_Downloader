@@ -1,11 +1,22 @@
-# Posters downloader
-
 <div align="center">
+  
 <h1> TMDBI-Poser Downloader
 
 <br>
 </div>
 
+<div>
+  web application that give you option to download poster of movie to your db,
+  also you can do crud actions from mongodb include:create,update,read and delete using simple api routeing
+  and it build as :whale: docker image so it ready to use
+<div>
+<br>
+
+  based of flask write in python language
+  
+  
+  
+<div>
 ## Dependencies you'll need to install
 </div>
 <div align="left">
