@@ -13,25 +13,15 @@
 <br>
 <div>
   <h3>:rocket: Future </h3>
-  :thumbsup: build in pyhton language
-  :thumbsup: using with object-oriented programming and using class method
-  :thumbsup: build using the plugins:
+ - :thumbsup: build in pyhton language
+ - :thumbsup: using with object-oriented programming and using class method
+ - :thumbsup: build using the plugins:
   
 <div>
 
   
   
   
-<div>
-## Dependencies you'll need to install
-</div>
-<div align="left">
-<img src="https://img.shields.io/badge/dependency-requests-blue?logo=requests+&logoColor=white" alt="dependency - requests" align="center"></a>
-<img src="https://img.shields.io/badge/dependency-pymongo-blue?logo=pymongo&logoColor=white" alt="dependency - pymongo" align="center"></a>
-<img src="https://img.shields.io/badge/dependency-urllib3-blue?logo=urllib3&logoColor=white" alt="dependency - urllib3" align="center"></a>
-<img src="https://img.shields.io/badge/dependency-bs4-blue?logo=bs4&logoColor=white" alt="dependency - bs4" align="center"></a> 
-<img src="https://img.shields.io/badge/dependency-flask-blue" alt="dependency - flask" align="center"></a> 
-
 
 ### **Installation**
 
